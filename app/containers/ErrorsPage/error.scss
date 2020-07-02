@@ -1,0 +1,36 @@
+.errorLayout {
+  min-height: '100vh';
+  display: 'flex';
+  @media all and (-ms-high-contrast: none) {
+    height: 0; // IE11 fix
+  }
+}
+.errorLayout content {
+  flex-grow: 1;
+  max-width: '100%';
+  overflow-x: 'hidden';
+}
+
+.root {
+  padding: 3;
+  padding-top: '10vh';
+  display: 'flex';
+  flex-direction: 'column';
+  align-items: 'center';
+}
+.imageContainer {
+  margin-top: 6;
+  display: 'flex';
+  justify-content: 'center';
+}
+.image {
+  max-width: '100%';
+  width: 560;
+  max-height: 300;
+  height: 'auto';
+}
+.buttonContainer {
+  margin-top: 6;
+  display: 'flex';
+  justify-content: 'center';
+}
